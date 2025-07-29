@@ -5,7 +5,7 @@ Solution for the [Store Sales – Time Series Forecasting](https://www.kaggle.co
 The challenge: predict daily sales across multiple stores using historical data, promotions, and external factors.
 
 ## 📓 Notebook
-- [`store_sales_notebook.ipynb`](store_sales_notebook.ipynb) – EDA, feature engineering, LightGBM training, and evaluation.  
+- [`store_sales_notebook.ipynb`](store_sales.ipynb) – EDA, feature engineering, LightGBM training, and evaluation.  
 
 ## ⚙️ Approach
 - **LGBMRegressor** with time‑based lags, rolling means, and holiday indicators.  
